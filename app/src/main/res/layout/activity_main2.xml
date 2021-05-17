@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/poza2"
+    >
+
+
+    <TextView
+        android:id="@+id/rezultat"
+        android:layout_width="138dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginBottom="14dp"
+        android:text="REZULTAT"
+        android:textColor="#E3D7D7"
+        app:autoSizeTextType="uniform" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="256dp"
+        android:layout_marginRight="256dp"
+        android:layout_marginBottom="465dp"
+        android:hint="NumeMaterie1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="255dp"
+        android:layout_marginRight="255dp"
+        android:layout_marginBottom="420dp"
+        android:hint="NumeMaterie2" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="255dp"
+        android:layout_marginRight="255dp"
+        android:layout_marginBottom="376dp"
+        android:hint="NumeMaterie3" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="255dp"
+        android:layout_marginRight="255dp"
+        android:layout_marginBottom="330dp"
+        android:hint="NumeMaterie4" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="255dp"
+        android:layout_marginRight="255dp"
+        android:layout_marginBottom="284dp"
+        android:hint="NumeMaterie5" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="256dp"
+        android:layout_marginRight="256dp"
+        android:layout_marginBottom="238dp"
+        android:hint="NumeMaterie6" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="255dp"
+        android:layout_marginRight="255dp"
+        android:layout_marginBottom="194dp"
+        android:hint="NumeMaterie7" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="256dp"
+        android:layout_marginRight="256dp"
+        android:layout_marginBottom="148dp"
+        android:hint="NumeMaterie8" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="466dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="466dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num3"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="420dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num4"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="420dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num5"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="376dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num6"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginLeft="314dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="376dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num7"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="330dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num8"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="316dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="330dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num9"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginRight="141dp"
+        android:layout_marginBottom="283dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num10"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="316dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="283dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num11"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginRight="141dp"
+        android:layout_marginBottom="239dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num12"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="148dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num13"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginRight="141dp"
+        android:layout_marginBottom="193dp"
+        android:ems="10"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/num14"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginLeft="314dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="239dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num15"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginRight="141dp"
+        android:layout_marginBottom="149dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num16"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="194dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/egal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginRight="157dp"
+        android:layout_marginBottom="78dp"
+        android:text="=" />
+
+    <TextView
+        android:id="@+id/Materia"
+        android:layout_width="98dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="280dp"
+        android:layout_marginRight="280dp"
+        android:layout_marginBottom="534dp"
+        android:text="Materia"
+        android:textColor="#F8F3F3"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/Nota"
+        android:layout_width="85dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginBottom="533dp"
+        android:text="Nota"
+        android:textColor="#F6F3F3"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/Credite"
+        android:layout_width="85dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="532dp"
+        android:text="Credite"
+        android:textColor="#FBFBFB"
+        android:textSize="26sp" />
+</RelativeLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "Ultima"
+include ':app'
